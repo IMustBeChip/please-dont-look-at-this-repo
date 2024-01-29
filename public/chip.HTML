@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login to Play</title>
+  <link rel="stylesheet" href="FONNT.CSS">
+  <style>
+    /* CSS cho phần tử body */
+    body {
+      background-image: url("Hinh-nen-4K-1.png");
+      background-size: cover;
+    }
+
+    /* CSS cho nút "SEND!!!!!" */
+    .button {
+      border-radius: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      margin-top: 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    /* CSS cho ô input được làm tròn */
+    .rounded-input {
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      font-size: 16px;
+      background-color: rgba(255, 255, 255, 0.5);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      display: block;
+      margin-bottom: 10px;
+      text-align: center;
+      color: white; /* Thay đổi màu chữ thành màu trắng */
+    }
+
+    /* CSS cho nhóm các phần tử input và button */
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* CSS cho khung hình tròn nhỏ chứa hình ảnh */
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      overflow: hidden;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+    }
+
+    /* CSS cho hình ảnh trong khung */
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* CSS cho chữ ở góc màn hình bên phải */
+    .credit {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      color: white;
+      font-size: 12px;
+    }
+
+    /* CSS cho liên kết "Chip" */
+    .credit a {
+      color: white;
+      text-decoration: underline;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="icon.png" sizes="16x16">
+</head>
+<body>
+  <h1 style="text-align: center; color: white;">HELLOOOOOOOOOOOOO</h1>
+
+  <p style="text-align: center; color: white;">To become goodboy, enter your password and username (Roblox)</p>
+
+  <div class="input-group">
+    <label for="username" style="color: white;">Tên người dùng:</label>
+    <input type="text" id="username" name="username" class="rounded-input">
+
+    <label for="password" style="color: white;">Mật khẩu:</label>
+    <input type="password" id="password" name="password" class="rounded-input">
+
+    <button class="button">SEND!!!!!</button>
+  </div>
+
+  <div class="avatar">
+    <img src="mayvajule.png" alt="Avatar">
+  </div>
+  
+  <div class="credit">
+    Trang web này được làm bởi <a href="https://youtube.com">Chip💀</a>
+  </div>
+</body>
+</html>

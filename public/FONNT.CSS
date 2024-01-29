@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('fonts/Comfortaa.ttf') format('truetype');
+  }
+  
+  body {
+    font-family: 'Comfortaa', sans-serif;
+  }
+
+  @font-face {
+    font-family: MyCustomFont; /* Tên phông chữ tùy chọn */
+    src: url("fonts/Comfortaa.ttf"); /* Đường dẫn tới font file */
+  }
+  
+  /* Áp dụng phông chữ cho phần tử có class "button" */
+  .button {
+    font-family: MyCustomFont, Arial, sans-serif; /* Sử dụng font chữ đã định nghĩa và các font backup khác */
+    /* Các thuộc tính khác cho nút "SEND!!!!!" */
+  }
+  
